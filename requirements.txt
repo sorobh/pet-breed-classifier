@@ -1,3 +1,4 @@
+pip
 fastai
 scikit-image
 gradio
