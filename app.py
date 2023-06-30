@@ -11,7 +11,7 @@ def predict(img):
     return {labels[i]: float(probs[i]) for i in range(len(labels))}
 
 title = "Pet Breed Classifier"
-description = "A pet breed classifier trained on the Oxford Pets dataset with fastai. Please upload image of a dog or cat, and the model will predict the breed of the pet."
+description = "<div style='text-align: center'>A pet breed classifier trained on the Oxford Pets dataset with fastai. Please upload image of a dog or cat, and the model will predict the breed of the pet.</div>"
 article="<p style='text-align: center'><a href='https://tmabraham.github.io/blog/gradio_hf_spaces_tutorial' target='_blank'>Blog post</a></p>"
 examples = []
 interpretation='default'
@@ -23,3 +23,4 @@ gr.Interface(fn=predict,
              title=title,
              description=description,
             ).launch()
+
