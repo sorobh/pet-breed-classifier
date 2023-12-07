@@ -1,14 +1,12 @@
 # Pet Breed Classifier
-This demo was crceated as part of [Fast AI course](https://course.fast.ai/) as a sample deep learnng applicatoin in computer vision. THis code is compatible with UNIX based systems.
-
-Demo: https://huggingface.co/spaces/SaurabhNayak/My-Pet-Breed-Classifier
+This demo was crceated as part of [Fast AI course](https://course.fast.ai/) as a sample deep learnng applicatoin in computer vision. Demo is hosted [here](https://huggingface.co/spaces/SaurabhNayak/My-Pet-Breed-Classifier).
 
 
 ## Steps to recreate
 1. create a new conda environment: `conda create --name myenv`
 2. activate the new env: `conda activate myenv`
 3. install all the dependencies `pip install -r requirements.txt`
-4. create your own model on Google Colab with `train.py` and place it in the working directory
+4. create your own model on Google Colab with `train.py` and place the .pkl file in the working directory
 5. run the app.py file: `python app.py`
 
 ## Training your model
@@ -18,4 +16,8 @@ You can pick an option that's convenient to you based on the system you are usin
 2. another version can be referred [here](https://tmabraham.github.io/blog/gradio_hf_spaces_tutorial)
 3. use the train.py code from this repo in Google Colab
 
-Once you have trained the model, place the pkl file in the working directory. If you're running a windows machine and you're getting a `NotImplementedError: cannot instantiate 'PosixPath' on your system`, then you may want to refer the windows version of the code in this repository.
+Once you have trained the model, place the pkl file in the working directory. 
+
+
+# Limitations
+THis code is compatible with UNIX based systems. If you're running a windows machine and you're getting a `NotImplementedError: cannot instantiate 'PosixPath' on your system`, then you may want to refer the windows version of the code. The repo can be downloaded [here](https://drive.google.com/file/d/18aC-Ox6QPVrE5pduRKVZRrxdKmkK_RUP/view?usp=sharing). The file is big (800 MB) since it has a .pth file instead of .pkl file
