@@ -6,8 +6,8 @@ learn = load_learner('export.pkl')
 
 labels = learn.dls.vocab
 def predict(img):
-    img = PILImage.create(img)
-    pred,pred_idx,probs = learn.predict(img)
+    img_path = str(img)
+    pred, pred_idx, probs = learn.predict(str(img))
     return {labels[i]: float(probs[i]) for i in range(len(labels))}
 
 title = "Pet Breed Classifier"
@@ -18,9 +18,8 @@ interpretation='default'
 enable_queue=True
 
 gr.Interface(fn=predict,
-             inputs=gr.inputs.Image(label="Upload a jpg image",type="filepath"),
-             outputs=gr.outputs.Label(num_top_classes=3),
-             title=title,
-             description=description,
-            ).launch()
-
+              inputs=gr.inputs.Image(label="Upload a jpg image",type="file"),
+              outputs=gr.outputs.Label(num_top_classes=3),
+              title=title,
+              description=description,
+              ).launch()
