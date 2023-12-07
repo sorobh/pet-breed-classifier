@@ -1,5 +1,5 @@
 # Pet Breed Classifier
-This demo was crceated as part of [Fast AI course](https://course.fast.ai/) as a sample deep learnng applicatoin in computer vision. Demo is hosted [here](https://huggingface.co/spaces/SaurabhNayak/My-Pet-Breed-Classifier).
+This demo was crceated as part of [Fast AI course](https://course.fast.ai/) as a sample deep learning applicatoin in computer vision. Demo is hosted [here](https://huggingface.co/spaces/SaurabhNayak/My-Pet-Breed-Classifier).
 
 
 ## Steps to recreate
