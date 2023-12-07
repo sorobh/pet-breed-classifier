@@ -21,5 +21,5 @@ Once you have trained the model, place the pkl file in the working directory.
 This code is compatible with UNIX based systems. If you're running a windows machine and you're getting a `NotImplementedError: cannot instantiate 'PosixPath' on your system`, then you may want to refer the another version of the code that's compatible with windows machines. The repo can be downloaded [here](https://drive.google.com/file/d/18aC-Ox6QPVrE5pduRKVZRrxdKmkK_RUP/view?usp=sharing). Note- This file is big (~800 MB) and it has a .pth file instead of .pkl file
 
 ## More
-	1. [Which image models are best? | Kaggle](https://www.kaggle.com/code/jhoward/which-image-models-are-best)
-	2. [The best vision models for fine-tuning | Kaggle](https://www.kaggle.com/code/jhoward/the-best-vision-models-for-fine-tuning)
+1. [Which image models are best? | Kaggle](https://www.kaggle.com/code/jhoward/which-image-models-are-best)
+2. [The best vision models for fine-tuning | Kaggle](https://www.kaggle.com/code/jhoward/the-best-vision-models-for-fine-tuning)
