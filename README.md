@@ -20,4 +20,4 @@ Once you have trained the model, place the pkl file in the working directory.
 
 
 # Limitations
-THis code is compatible with UNIX based systems. If you're running a windows machine and you're getting a `NotImplementedError: cannot instantiate 'PosixPath' on your system`, then you may want to refer the windows version of the code. The repo can be downloaded [here](https://drive.google.com/file/d/18aC-Ox6QPVrE5pduRKVZRrxdKmkK_RUP/view?usp=sharing). The file is big (800 MB) since it has a .pth file instead of .pkl file
+This code is compatible with UNIX based systems. If you're running a windows machine and you're getting a `NotImplementedError: cannot instantiate 'PosixPath' on your system`, then you may want to refer the another version of the code that's compatible with windows machines. The repo can be downloaded [here](https://drive.google.com/file/d/18aC-Ox6QPVrE5pduRKVZRrxdKmkK_RUP/view?usp=sharing). Note- the file is big (800 MB) since it has a .pth file instead of .pkl file
